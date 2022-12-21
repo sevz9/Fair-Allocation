@@ -1,0 +1,120 @@
+samples/sample_2_m.txt
+samples count: 1000
+po count: 630
+po percent: 0.630000
+
+samples/sample_3_m.txt
+samples count: 1000
+po count: 740
+po percent: 0.740000
+
+samples/sample_4_m.txt
+samples count: 1000
+po count: 908
+po percent: 0.908000
+
+samples/sample_5_m.txt
+samples count: 1000
+po count: 918
+po percent: 0.918000
+
+samples/sample_2_m_2value.txt
+samples count: 1000
+po count: 502
+po percent: 0.502000
+
+samples/sample_3_m_2value.txt
+samples count: 1000
+po count: 648
+po percent: 0.648000
+
+samples/sample_4_m_2value.txt
+samples count: 1000
+po count: 770
+po percent: 0.770000
+
+samples/sample_5_m_2value.txt
+samples count: 1000
+po count: 825
+po percent: 0.825000
+
+samples/sample_2_m.txt
+samples count: 1000
+po count: 659
+po percent: 0.659000
+
+samples/sample_3_m.txt
+samples count: 1000
+po count: 739
+po percent: 0.739000
+
+samples/sample_4_m.txt
+samples count: 1000
+po count: 900
+po percent: 0.900000
+
+samples/sample_5_m.txt
+samples count: 1000
+po count: 923
+po percent: 0.923000
+
+samples/sample_2_m_2value.txt
+samples count: 1000
+po count: 676
+po percent: 0.676000
+
+samples/sample_3_m_2value.txt
+samples count: 1000
+po count: 749
+po percent: 0.749000
+
+samples/sample_4_m_2value.txt
+samples count: 1000
+po count: 830
+po percent: 0.830000
+
+samples/sample_5_m_2value.txt
+samples count: 1000
+po count: 823
+po percent: 0.823000
+
+samples/sample_2_m.txt
+samples count: 1000
+po count: 651
+po percent: 0.651000
+
+samples/sample_3_m.txt
+samples count: 1000
+po count: 740
+po percent: 0.740000
+
+samples/sample_4_m.txt
+samples count: 1000
+po count: 898
+po percent: 0.898000
+
+samples/sample_5_m.txt
+samples count: 1000
+po count: 925
+po percent: 0.925000
+
+samples/sample_2_m_2value.txt
+samples count: 1000
+po count: 684
+po percent: 0.684000
+
+samples/sample_3_m_2value.txt
+samples count: 1000
+po count: 730
+po percent: 0.730000
+
+samples/sample_4_m_2value.txt
+samples count: 1000
+po count: 817
+po percent: 0.817000
+
+samples/sample_5_m_2value.txt
+samples count: 1000
+po count: 810
+po percent: 0.810000
+
