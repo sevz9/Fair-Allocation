@@ -7,6 +7,8 @@ using namespace std;
 
 bool allocation_comp(vector<vector<int>> valuation_matrix, vector<set<int>> allocation1, vector<vector<int>> allocation2);
 
+bool allocation_comp(vector<vector<int>> valuation_matrix, vector<vector<int>> allocation1, vector<vector<int>> allocation2);
+
 bool is_PO(vector<vector<int>> valuation_matrix, vector<vector<int>> allocation);
 
 bool is_PO(vector<vector<int>> valuation_matrix, vector<set<int>> allocation);

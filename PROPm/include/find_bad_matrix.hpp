@@ -4,4 +4,4 @@
 
 using namespace std;
 
-vector<vector<int>> find_bad_matrix(int n);
+vector<vector<int>> find_bad_matrix(int n, int m, int, bool *);

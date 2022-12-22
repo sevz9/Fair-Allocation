@@ -22,8 +22,8 @@ bool allocation_comp(vector<vector<int>> valuation_matrix, vector<set<int>> allo
         //cout << sum1 << " " << sum2 << endl;
         if(sum2 > sum1)
             return false;
-
-        more = sum1 > sum2;
+        if(!more)
+            more = sum1 > sum2;
 
         sum1 = 0;
         sum2 = 0;
@@ -88,7 +88,8 @@ bool allocation_comp(vector<vector<int>> valuation_matrix, vector<set<int>> allo
         if(sum2 > sum1)
             return false;
 
-        more = sum1 > sum2;
+        if(!more)
+            more = sum1 > sum2;
 
         sum1 = 0;
         sum2 = 0;

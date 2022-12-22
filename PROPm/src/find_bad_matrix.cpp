@@ -13,15 +13,12 @@
 
 using namespace std;
 
-vector<vector<int>> find_bad_matrix(int n){
-    bool find = false;
-    int m = 2 * n;
-    vector<vector<int>> rand_matrix;
+vector<vector<int>> find_bad_matrix(int n, int m, int max_value, bool *correct){
+    bool find;
+    vector<vector<int>> rand_matrix(n, vector<int>(m, 1));
 
-    while (!find){
-
+    for(int k = 0; k < pow(max_value, n * m) - 1; k++){
         find = true;
-        rand_matrix = generate_random_matrix(n, n);
         vector<int> colors(n, 0);
         vector<set<int>> tmp_allocation(n, set<int>());
         for (int i = 0; i < m; i++) {
@@ -29,6 +26,8 @@ vector<vector<int>> find_bad_matrix(int n){
         }
 
         for(int i = 0; i < pow(n, m); i++){
+
+
 
             if(is_PO(rand_matrix, tmp_allocation) && is_propm(rand_matrix, tmp_allocation)) {
                 find = false;
@@ -50,6 +49,25 @@ vector<vector<int>> find_bad_matrix(int n){
             tmp_allocation[colors[j] - 1].erase(j);
 
         }
+        if(find) {
+            *correct = true;
+            break;
+        }
+        rand_matrix[0][0] +=1;
+        int j = 0;
+        while(rand_matrix[j / m][j % m] == max_value + 1){
+            rand_matrix[j / m][j % m] = 1;
+            j++;
+            rand_matrix[j / m][j % m]++;
+        }
+
+            for (int i = 0; i < n; ++i) {
+                for (int l = 0; l < m; ++l) {
+                    //cout << rand_matrix[i][l] << " ";
+                }
+                //cout << endl;
+            }
+            //cout << endl;
 
     }
     return rand_matrix;
